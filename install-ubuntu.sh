@@ -3,7 +3,7 @@
 # TODO : define arch from CLI / env & adapt
 
 # install dependencies
-sudo apt install build-essential curl fd-find fzf git ripgrep tmux software-properties-common stow zsh -y
+sudo apt install build-essential curl fd-find fzf git ripgrep tmux software-properties-common stow zsh unzip -y
 
 # set zsh as defautl shell
 chsh -s $(which zsh)
