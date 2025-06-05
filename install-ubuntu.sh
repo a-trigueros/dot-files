@@ -42,3 +42,8 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x8
 sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 rm nvim-linux-x86_64.tar.gz
+
+# install TCR
+sudo mkdir -p /opt/tcr
+curl -s -L https://github.com/murex/TCR/releases/download/v1.4.1/tcr_1.4.1_Linux_x86_64.tar.gz | sudo tar -xvz -C /opt/tcr
+echo PATH=$PATH:/opt/tcr' >>~/.zshr
